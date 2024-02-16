@@ -4,13 +4,13 @@ const ComponentSideBar = () => {
   return (
     <Navbar
       className="navbar sidebar d-none d-md-flex flex-column justify-content-between"
-      bg="dark"
+      bg="black w-18"
       data-bs-theme="dark"
     >
       <div className="p-3">
         <Navbar.Brand href="#">
           <div>
-            <img src="/logo/logo.png" alt="logo" width="150px" height="60px" />
+            <img src="/logo/logo.png" alt="logo" width="150px" height="50px" />
           </div>
         </Navbar.Brand>
 
@@ -39,10 +39,12 @@ const ComponentSideBar = () => {
       <div>
         <Nav className="d-flex flex-column justify-content-center align-items-center">
           <Nav.Link href="#">
-            <Button variant="light">Sign Up</Button>
+            <Button variant="light" className="signup-button">
+              Sign Up
+            </Button>
           </Nav.Link>
           <Nav.Link href="#">
-            <Button variant="dark" className="border-light">
+            <Button variant="dark" className="border-light login-btn">
               LOGIN
             </Button>
           </Nav.Link>
