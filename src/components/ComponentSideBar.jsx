@@ -26,8 +26,8 @@ const ComponentSideBar = () => {
         <Form>
           <InputGroup>
             <Form.Control
-              placeholder="Username"
-              aria-label="Username"
+              placeholder="search"
+              aria-label="search"
               aria-describedby="basic-addon1"
               className="bg-light"
             />
