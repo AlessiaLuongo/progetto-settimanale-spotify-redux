@@ -19,7 +19,7 @@ const ComponentSideBar = () => {
             <i className="bi bi-house-door-fill me-1"></i>Home
           </Nav.Link>
           <Nav.Link href="#">
-            <i className="bi bi-book-fill"></i>Your Library
+            <i className="bi bi-book-fill me-1"></i>Your Library
           </Nav.Link>
         </Nav>
 
